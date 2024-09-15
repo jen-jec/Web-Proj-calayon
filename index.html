@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <link rel="stylesheet" href="Color Themes/index-themes.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css">
+    <link rel="stylesheet" href="Color Themes/color1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="Color Themes/color2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="Color Themes/color3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="Color Themes/color4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="Color Themes/color5.css" class="alternate-style" title="color-5" disabled>
+  </head>
+  <body>
+<!----------------------Top Section----------------------->
+    <header>
+        <a href="#home" class="logo">JBC</a>
+        <i class="bx bx-menu" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="hobbies.html">Hobbies</a>
+            <a href="gallery.html">Gallery</a>
+        </nav>
+    </header>
+<!---------------------Intro Section--------------------->
+    <section class="section" id="home">
+        <div class="home-content">
+            <h1>Hello! I am <span>Jenell Calayon</span> </h1>
+            <h2>I am a/an <span class="auto-type"></span> </h2>
+            <p>Welcome to my Website!</p>
+        </div>
+        <div class="home-img">
+            <img src="images/0.jpg" alt="My Picture">
+        </div>
+    </section>
+<!---------------------About Section--------------------->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/0.jpg" alt="My Picture">
+        </div>
+        <div class="about-content">
+            <h2>About <span>Me</span></h2>
+            <p>I'm from Baguio City, born in the year 2004. I am 
+                currently studying Bachelor of Science in Information 
+                Technology at the University of the Cordilleras as a 2nd 
+                year college. I like coding. I am an Igorot, and I can 
+                communicate using the languages: Ilocano, Tuwali, Filipino, 
+                and English. I am a team worker and I am always eager to 
+                learn new things.</p>
+            <h3 class="icon-head">**My Socials**</h3>    
+            <div class="icon-box">
+                <div class="circle">
+                    <div class="circleA">
+                        <img src="images/n.png" alt="telegram logo" id="toggleImage1">
+                        <p id="toggleText1">09664332226</p>
+                    </div>
+                    <div class="circle1">
+                        <img src="images/o.png" alt="gmail logo" id="toggleImage">
+                        <p id="toggleText">jenellbcalayon1520@gmail.com</p>
+                    </div>
+                    <div class="circle">
+                        <a href="https://www.facebook.com/jeybee.cee.7?mibextid=ZbWKwL" target="_blank"> <img src="images/p.png" alt="fb logo"></a>                  
+                    </div>
+                </div>
+            </div>    
+        </div>
+    </section>
+<!------------------------Themes------------------------->
+    <div class="themes">
+      <div class="themes-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+      </div>
+      <div class="day-night s-icon">
+        <i class="fas "></i>
+      </div>
+      <h4>Theme Colors</h4>
+      <div class="colors">
+        <span class="color1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color5" onclick="setActiveStyle('color-5')"></span>
+      </div>
+    </div>
+<!------------------------Footer------------------------->
+    <footer class="footer">
+        <p>&copy; 2024 Jenell Calayon. All rights reserved.</p>
+        <p>Have a Great Day!</p>
+    </footer>
+<!------------------------JavaScript------------------------->
+    <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.1.0/typed.umd.js" integrity="sha512-+2pW8xXU/rNr7VS+H62aqapfRpqFwnSQh9ap6THjsm41AxgA0MhFRtfrABS+Lx2KHJn82UOrnBKhjZOXpom2LQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script> var typed = new Typed(".auto-type", {
+        strings : ["It Student", "Web Tech Major", "Aspiring Programmer"],
+        typeSpeed : 50,
+        backSpeed : 30,
+        loop : true
+    }) 
+    </script>
+  </body>
+</html>
